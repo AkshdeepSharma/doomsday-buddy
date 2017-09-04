@@ -19,6 +19,8 @@ access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXX'
 
 NOTE 2: Create an empty CSV file named "nuke_checker.csv". This is where all your dates and % chance values will be stored and read from.
 
+NOTE 3: This project is designed to be run on a unix server. There are some lines of code which will prevent it from running on a windows machine!
+
 Discussion
 ----------
 ### Intro
