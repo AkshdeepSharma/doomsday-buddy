@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import configuration as c
 import tweepy
 from textblob import TextBlob
