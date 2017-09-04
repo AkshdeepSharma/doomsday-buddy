@@ -1,3 +1,6 @@
+import matplotlib as mplt
+mplt.use('Agg')
+
 import matplotlib.pyplot as plt
 import matplotlib.dates as dates
 import matplotlib.ticker as plticker
@@ -49,7 +52,7 @@ plt.savefig("pcn.png", bbox_inches='tight')
 
 # Tweets
 api = TwitterAPI(c.consumer_key, c.consumer_secret, c.access_token, c.access_token_secret)
-image = open('root/pcn.png', 'rb')
+image = open('/root/pcn.png', 'rb')
 data = image.read()
 r = api.request('statuses/update_with_media', {'status': 'The probability of North Korea nuking today is %s %%. Check '
                                                          'out the 30 day trend below!' % twitterAPI.percent_chance},
