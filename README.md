@@ -32,6 +32,7 @@ The goals of this project were to do the following:
 1. tweepy
 2. textblob
 3. matplotlib
+4. TwitterAPI
 
 To-Do
 -----

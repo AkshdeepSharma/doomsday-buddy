@@ -21,4 +21,3 @@ for tweet in public_tweets:
 # Calculates the % chance of a nuke being launched
 SA_value = sum_polarity / num_tweets
 percent_chance = str(round(100 - (((SA_value + 1) / 2) * 100), 2))
-
