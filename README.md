@@ -1,6 +1,6 @@
 # Doomsday_Buddy
-================
 The goal of this project was to create a bot that would run on a server (i.e. AWS, DO), that would tweet out the probability that North Korea would launch a nuke based on the sentiment analysis scores of recent tweets mentioning things like North Korea, nuclear war, and so on. A plot is created using plotly and tweeted out to help visualize a 30 day trend.
+
 Files
 -----
 * **__init.py__:** Indicates the directory is a module. File is empty.
@@ -10,8 +10,11 @@ Files
 NOTE: Create a "configuration.py" file containing the following code containing your twitter keys:
 
 consumer_key = 'XXXXXXXXXXXXXXXXXXXXXX'
+
 consumer_secret = 'XXXXXXXXXXXXXXXXXXXXXX'
+
 access_token = 'XXXXXXXXXXX-XXXXXXXXXXX'
+
 access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXX'
 
 NOTE 2: Create an empty CSV file named "nuke_checker.csv". This is where all your dates and % chance values will be stored and read from.
