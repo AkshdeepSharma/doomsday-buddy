@@ -42,6 +42,15 @@ The goals of this project were to do the following:
 To-Do
 -----
 * Switch to TensorFlow in order to get more accurate sentiment analysis values using a neural net.
-* The tweepy REST api only collects tweets upto 1500 or 6-8 days, whichever comes first. Switching to using the streaming API and storing tweets in a database will result in more accurate % chance value due to more tweets being measured.
+
+Changelog
+---------
+### v1.1
+* Added some logic to the code to ensure more realistic predictions
+* Now bases the sentiment analysis off of the average of 224,640 tweets instead of 15 per day
+
+### v1.11
+* Added a slight fix to previous logic improvements
+* Fixed issues while writing to a .csv file preventing the bot from tweeting
 
 Feel free to leave any criticisms of this project, and follow my current bot on twitter at @DoomsdayBuddy.
