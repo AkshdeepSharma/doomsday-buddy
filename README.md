@@ -17,9 +17,11 @@ access_token = 'XXXXXXXXXXX-XXXXXXXXXXX'
 
 access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXX'
 
-NOTE 2: Create an empty CSV file named "nuke_checker.csv". This is where all your dates and % chance values will be stored and read from.
+NOTE 2: Create an empty CSV file named "nuke_checker.csv". This is where all your % chance values will be stored and read from.
 
-NOTE 3: This project is designed to be run on a unix server. There are some lines of code which will prevent it from running on a windows machine!
+NOTE 3: Create an empty CSV file named "to_plot.csv". This is where the average % chance per day are recorded and plotted from.
+
+NOTE 4: This project is designed to be run on a unix server. There are some lines of code which will prevent it from running on a windows machine!
 
 Discussion
 ----------
